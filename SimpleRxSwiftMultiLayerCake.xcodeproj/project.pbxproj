@@ -30,6 +30,8 @@
 		C6EA61891C1E1FB5004EFD28 /* Cake.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6700D101C1DE30500C0EB84 /* Cake.swift */; };
 		C6EA618A1C1E1FB5004EFD28 /* CakeEntryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6700D0E1C1DE02300C0EB84 /* CakeEntryViewModel.swift */; };
 		C6EA618D1C1E202B004EFD28 /* CakeEntryViewModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EA618C1C1E202B004EFD28 /* CakeEntryViewModelSpec.swift */; };
+		C6EA618F1C1E2FAD004EFD28 /* CakeDeliverableSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EA618E1C1E2FAD004EFD28 /* CakeDeliverableSpec.swift */; };
+		C6EA61911C1E3174004EFD28 /* NetworkTestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EA61901C1E3174004EFD28 /* NetworkTestHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		C6EA61831C1E1559004EFD28 /* CakeDeliverable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CakeDeliverable.swift; sourceTree = "<group>"; };
 		C6EA61861C1E165C004EFD28 /* CakeApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CakeApi.swift; sourceTree = "<group>"; };
 		C6EA618C1C1E202B004EFD28 /* CakeEntryViewModelSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CakeEntryViewModelSpec.swift; sourceTree = "<group>"; };
+		C6EA618E1C1E2FAD004EFD28 /* CakeDeliverableSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CakeDeliverableSpec.swift; sourceTree = "<group>"; };
+		C6EA61901C1E3174004EFD28 /* NetworkTestHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTestHelper.swift; sourceTree = "<group>"; };
 		F05D0A72F5D6FC4856FEE38C /* Pods-SimpleRxSwiftMultiLayerCake.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleRxSwiftMultiLayerCake.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleRxSwiftMultiLayerCake/Pods-SimpleRxSwiftMultiLayerCake.release.xcconfig"; sourceTree = "<group>"; };
 		F39A6905BD82B19B91857C9C /* Pods_SimpleRxSwiftMultiLayerCakeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleRxSwiftMultiLayerCakeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -143,6 +147,8 @@
 			isa = PBXGroup;
 			children = (
 				C6EA618C1C1E202B004EFD28 /* CakeEntryViewModelSpec.swift */,
+				C6EA618E1C1E2FAD004EFD28 /* CakeDeliverableSpec.swift */,
+				C6EA61901C1E3174004EFD28 /* NetworkTestHelper.swift */,
 			);
 			name = SimpleRxSwiftMultiLayerCakeTests;
 			sourceTree = "<group>";
@@ -387,8 +393,10 @@
 				C6EA61851C1E1559004EFD28 /* CakeDeliverable.swift in Sources */,
 				C6EA61881C1E165C004EFD28 /* CakeApi.swift in Sources */,
 				C6EA618D1C1E202B004EFD28 /* CakeEntryViewModelSpec.swift in Sources */,
+				C6EA618F1C1E2FAD004EFD28 /* CakeDeliverableSpec.swift in Sources */,
 				C6700D1A1C1DF01100C0EB84 /* NetworkRequestable.swift in Sources */,
 				C6700D1D1C1DF66100C0EB84 /* CakeError.swift in Sources */,
+				C6EA61911C1E3174004EFD28 /* NetworkTestHelper.swift in Sources */,
 				C6EA618A1C1E1FB5004EFD28 /* CakeEntryViewModel.swift in Sources */,
 				C6700D171C1DEF3700C0EB84 /* OldBakeryService.swift in Sources */,
 				C6EA61891C1E1FB5004EFD28 /* Cake.swift in Sources */,

@@ -4,7 +4,7 @@ import RxCocoa
 
 protocol CakeDeliverable {
     
-    var oldBakery: OldBakeryService { get set }
+    var oldBakeryService: OldBakeryService { get set }
     var disposeBag: DisposeBag { get set }
     
     func fetchCake(cakeIdentification: String) -> Observable<Cake>
@@ -18,7 +18,7 @@ extension CakeDeliverable {
     func fetchCake(cakeIdentification: String) -> Observable<Cake> {
         return create { observer in
             
-            self.oldBakery.makeRequest(cakeIdentification)
+            self.oldBakeryService.makeRequest(cakeIdentification)
                 .subscribe(onNext: observer.onNext, onError: observer.onError)
                 .addDisposableTo(self.disposeBag)
             return NopDisposable.instance

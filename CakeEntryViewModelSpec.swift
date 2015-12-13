@@ -59,7 +59,7 @@ final class CakeEntryViewModelSpec: QuickSpec {
     
     private class StubCakeApi: CakeDeliverable {
         var disposeBag = DisposeBag()
-        var oldBakery = OldBakeryService()
+        var oldBakeryService = OldBakeryService()
         var responseClosure: (AnyObserver<Cake> -> Void)?
         
         func fetchCake(cakeIdentification: String) -> Observable<Cake> {

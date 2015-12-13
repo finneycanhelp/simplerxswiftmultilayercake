@@ -27,6 +27,7 @@ struct NetworkRequestMaker: NetworkRequestable {
             } else {
                 // FIXME: change to a more useful error
                 observer.onError(NSError(domain: "Something", code: 999, userInfo: nil))
+                print("We know. Nothing is handling this error case yet")
             }
         }
     }
