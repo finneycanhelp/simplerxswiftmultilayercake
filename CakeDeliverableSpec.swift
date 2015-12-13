@@ -18,7 +18,9 @@ class CakeDeliverableSpec: QuickSpec {
             context("when fetching a cake with a valid id") {
                 
                 oldBakeryServiceSpy.responseClosure = { observer in
-                    observer.onNext(Cake(cakeIdentification:"", html:"Some HTML"))
+//                    observer.onNext(Cake(cakeIdentification:"", html:"Some HTML"))
+                    
+                    just(Cake(cakeIdentification:"", html:"Some HTML"))
                 }
                 
                 var cakeString: String = ""
