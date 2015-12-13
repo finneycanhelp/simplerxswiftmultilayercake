@@ -9,6 +9,7 @@ target 'SimpleRxSwiftMultiLayerCake' do
     pod 'RxCocoa', '2.0.0-beta.4'
     pod 'RxBlocking', '2.0.0-beta.4'
     pod 'Alamofire', '3.1.2'
+    pod 'SWXMLHash', '2.0.2'
 end
 
 def testing_pods

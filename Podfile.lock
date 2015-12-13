@@ -7,6 +7,7 @@ PODS:
   - RxCocoa (2.0.0-beta.4):
     - RxSwift (~> 2.0.0-beta)
   - RxSwift (2.0.0-beta.4)
+  - SWXMLHash (2.0.2)
 
 DEPENDENCIES:
   - Alamofire (= 3.1.2)
@@ -15,6 +16,7 @@ DEPENDENCIES:
   - RxBlocking (= 2.0.0-beta.4)
   - RxCocoa (= 2.0.0-beta.4)
   - RxSwift (= 2.0.0-beta.4)
+  - SWXMLHash (= 2.0.2)
 
 SPEC CHECKSUMS:
   Alamofire: 7c16ca65f3c7e681fd925fd7f2dec7747ff96855
@@ -23,5 +25,6 @@ SPEC CHECKSUMS:
   RxBlocking: 234b0c161315ff3ade25c11e48d74e9ca83158b5
   RxCocoa: 4a3e433e6dfe116362ff54423c841cc0f209e009
   RxSwift: 191c6b06da783a8671433cf35a54d2ad2fd2d9de
+  SWXMLHash: 9e6bd7db2e8275eaf3d2082265623d6e749e169d
 
 COCOAPODS: 0.39.0

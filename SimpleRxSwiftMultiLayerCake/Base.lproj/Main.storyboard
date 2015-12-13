@@ -1,25 +1,49 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Cake Entry View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="CakeEntryViewController" customModule="SimpleRxSwiftMultiLayerCake" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HHR-u9-24d">
+                                <rect key="frame" x="107" y="269" width="107" height="30"/>
+                                <state key="normal" title="Get Some Cake"/>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Identifier" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oTP-Cm-mDt">
+                                <rect key="frame" x="107" y="219" width="107" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="HHR-u9-24d" firstAttribute="top" secondItem="oTP-Cm-mDt" secondAttribute="bottom" constant="20" id="F0t-7q-zX7"/>
+                            <constraint firstItem="HHR-u9-24d" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Fvz-cN-XAM"/>
+                            <constraint firstItem="HHR-u9-24d" firstAttribute="width" secondItem="oTP-Cm-mDt" secondAttribute="width" id="fKz-No-uX4"/>
+                            <constraint firstItem="HHR-u9-24d" firstAttribute="centerX" secondItem="oTP-Cm-mDt" secondAttribute="centerX" id="l59-vw-BFl"/>
+                            <constraint firstItem="HHR-u9-24d" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xye-Q2-Jjh"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="cakeIdentificationField" destination="oTP-Cm-mDt" id="gAQ-J1-IK4"/>
+                        <outlet property="getSomeCakeButton" destination="HHR-u9-24d" id="0z1-ox-ymp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="258.13333333333333" y="440.67333333333335"/>
         </scene>
     </scenes>
 </document>
