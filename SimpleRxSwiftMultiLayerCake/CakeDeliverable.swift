@@ -6,6 +6,8 @@ protocol CakeDeliverable {
     
     var oldBakery: OldBakeryService { get set }
     var disposeBag: DisposeBag { get set }
+    
+    func fetchCake(cakeIdentification: String) -> Observable<Cake>
 }
 
 // This exists because the first time a cake is obtained, it is obtained from the old bakery. 
