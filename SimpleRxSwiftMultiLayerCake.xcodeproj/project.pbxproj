@@ -27,6 +27,8 @@
 		C6EA61851C1E1559004EFD28 /* CakeDeliverable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EA61831C1E1559004EFD28 /* CakeDeliverable.swift */; };
 		C6EA61871C1E165C004EFD28 /* CakeApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EA61861C1E165C004EFD28 /* CakeApi.swift */; };
 		C6EA61881C1E165C004EFD28 /* CakeApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EA61861C1E165C004EFD28 /* CakeApi.swift */; };
+		C6EA61891C1E1FB5004EFD28 /* Cake.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6700D101C1DE30500C0EB84 /* Cake.swift */; };
+		C6EA618A1C1E1FB5004EFD28 /* CakeEntryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6700D0E1C1DE02300C0EB84 /* CakeEntryViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -375,7 +377,9 @@
 				C6EA61881C1E165C004EFD28 /* CakeApi.swift in Sources */,
 				C6700D1A1C1DF01100C0EB84 /* NetworkRequestable.swift in Sources */,
 				C6700D1D1C1DF66100C0EB84 /* CakeError.swift in Sources */,
+				C6EA618A1C1E1FB5004EFD28 /* CakeEntryViewModel.swift in Sources */,
 				C6700D171C1DEF3700C0EB84 /* OldBakeryService.swift in Sources */,
+				C6EA61891C1E1FB5004EFD28 /* Cake.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
