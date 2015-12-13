@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A57BA9A3435613721B294DB /* Pods_SimpleRxSwiftMultiLayerCakeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F39A6905BD82B19B91857C9C /* Pods_SimpleRxSwiftMultiLayerCakeTests.framework */; };
+		C27505D9273A7D09E8CFE77E /* Pods_SimpleRxSwiftMultiLayerCake.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C42E7FE67A84D8CD914E7A22 /* Pods_SimpleRxSwiftMultiLayerCake.framework */; };
+		C6DE1B8B1C1D135900449421 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DE1B8A1C1D135900449421 /* AppDelegate.swift */; };
+		C6DE1B8D1C1D135900449421 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DE1B8C1C1D135900449421 /* ViewController.swift */; };
+		C6DE1B901C1D135900449421 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6DE1B8E1C1D135900449421 /* Main.storyboard */; };
+		C6DE1B921C1D135900449421 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6DE1B911C1D135900449421 /* Assets.xcassets */; };
+		C6DE1B951C1D135900449421 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6DE1B931C1D135900449421 /* LaunchScreen.storyboard */; };
+		C6DE1BA01C1D135900449421 /* SimpleRxSwiftMultiLayerCakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DE1B9F1C1D135900449421 /* SimpleRxSwiftMultiLayerCakeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6DE1B9C1C1D135900449421 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6DE1B7F1C1D135900449421 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6DE1B861C1D135900449421;
+			remoteInfo = SimpleRxSwiftMultiLayerCake;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		72A7FC5398B792CBA7CF3175 /* Pods-SimpleRxSwiftMultiLayerCakeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleRxSwiftMultiLayerCakeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleRxSwiftMultiLayerCakeTests/Pods-SimpleRxSwiftMultiLayerCakeTests.release.xcconfig"; sourceTree = "<group>"; };
+		99916B3564EF42875CF2037D /* Pods-SimpleRxSwiftMultiLayerCake.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleRxSwiftMultiLayerCake.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleRxSwiftMultiLayerCake/Pods-SimpleRxSwiftMultiLayerCake.debug.xcconfig"; sourceTree = "<group>"; };
+		C42E7FE67A84D8CD914E7A22 /* Pods_SimpleRxSwiftMultiLayerCake.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleRxSwiftMultiLayerCake.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C57C3BA1C10D1A3439839E29 /* Pods-SimpleRxSwiftMultiLayerCakeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleRxSwiftMultiLayerCakeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleRxSwiftMultiLayerCakeTests/Pods-SimpleRxSwiftMultiLayerCakeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C6DE1B871C1D135900449421 /* SimpleRxSwiftMultiLayerCake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleRxSwiftMultiLayerCake.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6DE1B8A1C1D135900449421 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C6DE1B8C1C1D135900449421 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C6DE1B8F1C1D135900449421 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6DE1B911C1D135900449421 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6DE1B941C1D135900449421 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6DE1B961C1D135900449421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6DE1B9B1C1D135900449421 /* SimpleRxSwiftMultiLayerCakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleRxSwiftMultiLayerCakeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6DE1B9F1C1D135900449421 /* SimpleRxSwiftMultiLayerCakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleRxSwiftMultiLayerCakeTests.swift; sourceTree = "<group>"; };
+		C6DE1BA11C1D135900449421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F05D0A72F5D6FC4856FEE38C /* Pods-SimpleRxSwiftMultiLayerCake.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleRxSwiftMultiLayerCake.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleRxSwiftMultiLayerCake/Pods-SimpleRxSwiftMultiLayerCake.release.xcconfig"; sourceTree = "<group>"; };
+		F39A6905BD82B19B91857C9C /* Pods_SimpleRxSwiftMultiLayerCakeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleRxSwiftMultiLayerCakeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6DE1B841C1D135900449421 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C27505D9273A7D09E8CFE77E /* Pods_SimpleRxSwiftMultiLayerCake.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6DE1B981C1D135900449421 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A57BA9A3435613721B294DB /* Pods_SimpleRxSwiftMultiLayerCakeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6DE1B7E1C1D135900449421 = {
+			isa = PBXGroup;
+			children = (
+				C6DE1B891C1D135900449421 /* SimpleRxSwiftMultiLayerCake */,
+				C6DE1B9E1C1D135900449421 /* SimpleRxSwiftMultiLayerCakeTests */,
+				C6DE1B881C1D135900449421 /* Products */,
+				E30FC3B5A11319AA55576A83 /* Pods */,
+				D93C65FD46B88D6D397EB508 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C6DE1B881C1D135900449421 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6DE1B871C1D135900449421 /* SimpleRxSwiftMultiLayerCake.app */,
+				C6DE1B9B1C1D135900449421 /* SimpleRxSwiftMultiLayerCakeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6DE1B891C1D135900449421 /* SimpleRxSwiftMultiLayerCake */ = {
+			isa = PBXGroup;
+			children = (
+				C6DE1B8A1C1D135900449421 /* AppDelegate.swift */,
+				C6DE1B8C1C1D135900449421 /* ViewController.swift */,
+				C6DE1B8E1C1D135900449421 /* Main.storyboard */,
+				C6DE1B911C1D135900449421 /* Assets.xcassets */,
+				C6DE1B931C1D135900449421 /* LaunchScreen.storyboard */,
+				C6DE1B961C1D135900449421 /* Info.plist */,
+			);
+			path = SimpleRxSwiftMultiLayerCake;
+			sourceTree = "<group>";
+		};
+		C6DE1B9E1C1D135900449421 /* SimpleRxSwiftMultiLayerCakeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6DE1B9F1C1D135900449421 /* SimpleRxSwiftMultiLayerCakeTests.swift */,
+				C6DE1BA11C1D135900449421 /* Info.plist */,
+			);
+			path = SimpleRxSwiftMultiLayerCakeTests;
+			sourceTree = "<group>";
+		};
+		D93C65FD46B88D6D397EB508 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C42E7FE67A84D8CD914E7A22 /* Pods_SimpleRxSwiftMultiLayerCake.framework */,
+				F39A6905BD82B19B91857C9C /* Pods_SimpleRxSwiftMultiLayerCakeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E30FC3B5A11319AA55576A83 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99916B3564EF42875CF2037D /* Pods-SimpleRxSwiftMultiLayerCake.debug.xcconfig */,
+				F05D0A72F5D6FC4856FEE38C /* Pods-SimpleRxSwiftMultiLayerCake.release.xcconfig */,
+				C57C3BA1C10D1A3439839E29 /* Pods-SimpleRxSwiftMultiLayerCakeTests.debug.xcconfig */,
+				72A7FC5398B792CBA7CF3175 /* Pods-SimpleRxSwiftMultiLayerCakeTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6DE1B861C1D135900449421 /* SimpleRxSwiftMultiLayerCake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6DE1BA41C1D135900449421 /* Build configuration list for PBXNativeTarget "SimpleRxSwiftMultiLayerCake" */;
+			buildPhases = (
+				39C6FD95FB1F77652CD72438 /* Check Pods Manifest.lock */,
+				C6DE1B831C1D135900449421 /* Sources */,
+				C6DE1B841C1D135900449421 /* Frameworks */,
+				C6DE1B851C1D135900449421 /* Resources */,
+				68B1F5FC3DC1614F4C0E943E /* Embed Pods Frameworks */,
+				CA3427AA7FF37C8899C1050F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleRxSwiftMultiLayerCake;
+			productName = SimpleRxSwiftMultiLayerCake;
+			productReference = C6DE1B871C1D135900449421 /* SimpleRxSwiftMultiLayerCake.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6DE1B9A1C1D135900449421 /* SimpleRxSwiftMultiLayerCakeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6DE1BA71C1D135900449421 /* Build configuration list for PBXNativeTarget "SimpleRxSwiftMultiLayerCakeTests" */;
+			buildPhases = (
+				E307CAA3E5A2AE5540E73950 /* Check Pods Manifest.lock */,
+				C6DE1B971C1D135900449421 /* Sources */,
+				C6DE1B981C1D135900449421 /* Frameworks */,
+				C6DE1B991C1D135900449421 /* Resources */,
+				B71E9B739829A4676FF4EF22 /* Embed Pods Frameworks */,
+				01B8FDCECF04629F12F827B7 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6DE1B9D1C1D135900449421 /* PBXTargetDependency */,
+			);
+			name = SimpleRxSwiftMultiLayerCakeTests;
+			productName = SimpleRxSwiftMultiLayerCakeTests;
+			productReference = C6DE1B9B1C1D135900449421 /* SimpleRxSwiftMultiLayerCakeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6DE1B7F1C1D135900449421 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Mike Finney";
+				TargetAttributes = {
+					C6DE1B861C1D135900449421 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					C6DE1B9A1C1D135900449421 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C6DE1B861C1D135900449421;
+					};
+				};
+			};
+			buildConfigurationList = C6DE1B821C1D135900449421 /* Build configuration list for PBXProject "SimpleRxSwiftMultiLayerCake" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6DE1B7E1C1D135900449421;
+			productRefGroup = C6DE1B881C1D135900449421 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6DE1B861C1D135900449421 /* SimpleRxSwiftMultiLayerCake */,
+				C6DE1B9A1C1D135900449421 /* SimpleRxSwiftMultiLayerCakeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6DE1B851C1D135900449421 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6DE1B951C1D135900449421 /* LaunchScreen.storyboard in Resources */,
+				C6DE1B921C1D135900449421 /* Assets.xcassets in Resources */,
+				C6DE1B901C1D135900449421 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6DE1B991C1D135900449421 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01B8FDCECF04629F12F827B7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleRxSwiftMultiLayerCakeTests/Pods-SimpleRxSwiftMultiLayerCakeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39C6FD95FB1F77652CD72438 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		68B1F5FC3DC1614F4C0E943E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleRxSwiftMultiLayerCake/Pods-SimpleRxSwiftMultiLayerCake-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B71E9B739829A4676FF4EF22 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleRxSwiftMultiLayerCakeTests/Pods-SimpleRxSwiftMultiLayerCakeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA3427AA7FF37C8899C1050F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleRxSwiftMultiLayerCake/Pods-SimpleRxSwiftMultiLayerCake-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E307CAA3E5A2AE5540E73950 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6DE1B831C1D135900449421 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6DE1B8D1C1D135900449421 /* ViewController.swift in Sources */,
+				C6DE1B8B1C1D135900449421 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6DE1B971C1D135900449421 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6DE1BA01C1D135900449421 /* SimpleRxSwiftMultiLayerCakeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6DE1B9D1C1D135900449421 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6DE1B861C1D135900449421 /* SimpleRxSwiftMultiLayerCake */;
+			targetProxy = C6DE1B9C1C1D135900449421 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6DE1B8E1C1D135900449421 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6DE1B8F1C1D135900449421 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6DE1B931C1D135900449421 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6DE1B941C1D135900449421 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6DE1BA21C1D135900449421 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C6DE1BA31C1D135900449421 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6DE1BA51C1D135900449421 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99916B3564EF42875CF2037D /* Pods-SimpleRxSwiftMultiLayerCake.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleRxSwiftMultiLayerCake/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.finneycanhelp.SimpleRxSwiftMultiLayerCake;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C6DE1BA61C1D135900449421 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F05D0A72F5D6FC4856FEE38C /* Pods-SimpleRxSwiftMultiLayerCake.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleRxSwiftMultiLayerCake/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.finneycanhelp.SimpleRxSwiftMultiLayerCake;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C6DE1BA81C1D135900449421 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C57C3BA1C10D1A3439839E29 /* Pods-SimpleRxSwiftMultiLayerCakeTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimpleRxSwiftMultiLayerCakeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.finneycanhelp.SimpleRxSwiftMultiLayerCakeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleRxSwiftMultiLayerCake.app/SimpleRxSwiftMultiLayerCake";
+			};
+			name = Debug;
+		};
+		C6DE1BA91C1D135900449421 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72A7FC5398B792CBA7CF3175 /* Pods-SimpleRxSwiftMultiLayerCakeTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimpleRxSwiftMultiLayerCakeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.finneycanhelp.SimpleRxSwiftMultiLayerCakeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleRxSwiftMultiLayerCake.app/SimpleRxSwiftMultiLayerCake";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6DE1B821C1D135900449421 /* Build configuration list for PBXProject "SimpleRxSwiftMultiLayerCake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6DE1BA21C1D135900449421 /* Debug */,
+				C6DE1BA31C1D135900449421 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6DE1BA41C1D135900449421 /* Build configuration list for PBXNativeTarget "SimpleRxSwiftMultiLayerCake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6DE1BA51C1D135900449421 /* Debug */,
+				C6DE1BA61C1D135900449421 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6DE1BA71C1D135900449421 /* Build configuration list for PBXNativeTarget "SimpleRxSwiftMultiLayerCakeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6DE1BA81C1D135900449421 /* Debug */,
+				C6DE1BA91C1D135900449421 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6DE1B7F1C1D135900449421 /* Project object */;
+}
