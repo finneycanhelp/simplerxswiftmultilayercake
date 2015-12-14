@@ -17,16 +17,9 @@ class CakeDeliverableSpec: QuickSpec {
             
             context("when fetching a cake with a valid id") {
                 
-                // I would suggest that you try response closure to be of type:
-                // (parameters) -> Observable<ReturnValue>
-                
-                // and just returning:
-                // just(build the result from parameters)
-                                
                 oldBakeryServiceSpy.responseClosure = {
-//                    observer.onNext(Cake(cakeIdentification:"", html:"Some HTML"))
                     
-                    return just(Cake(cakeIdentification:"", html:"Some HTML"))
+                    just(Cake(cakeIdentification:"", html:"Some HTML"))
                 }
                 
                 var cakeString: String = ""
@@ -46,10 +39,6 @@ class CakeDeliverableSpec: QuickSpec {
             
             context("when fetching a cake in an error situation") {
                 
-//                oldBakeryServiceSpy.responseClosure = { observer in
-//                    observer.onError(OldBakeryError(message:"something", code: "999"))
-//                }
-
                 oldBakeryServiceSpy.responseClosure = {
                     
                     failWith(OldBakeryError(message:"something", code: "999"))
