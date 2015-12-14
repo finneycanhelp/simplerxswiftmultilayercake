@@ -22,15 +22,16 @@ class NetworkRequestSpy: NetworkRequestable {
 }
 
 class OldBakeryServiceSpy: OldBakeryService {
-    var responseClosure: ((AnyObserver<Cake>) -> Void)?
+    
+    var responseClosure: (() -> Observable<Cake>)?
     
     override func makeRequest(cakeIdentification: String) -> Observable<Cake> {
-        return create { observer in
-            if let responseClosure = self.responseClosure {
-                responseClosure(observer)
-            }
-            return NopDisposable.instance
+        
+        guard let myClosure = responseClosure else {
+            return just(Cake(cakeIdentification: "", html: ""))
         }
+        
+        return myClosure()
     }
 }
 
