@@ -9,7 +9,7 @@ protocol NetworkRequestable {
 
 struct NetworkRequestMaker: NetworkRequestable {
     func doPost(url: String, body: NSData?) -> Observable<NSData?> {
-        return create { observer in
+        return Observable.create { observer in
             let request = NSURLRequest(URL: NSURL(string: url)!).mutableCopy() as! NSMutableURLRequest
             request.HTTPBody = body
             request.HTTPMethod = "POST"

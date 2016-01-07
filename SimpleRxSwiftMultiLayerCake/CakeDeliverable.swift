@@ -16,7 +16,7 @@ protocol CakeDeliverable {
 extension CakeDeliverable {
 
     func fetchCake(cakeIdentification: String) -> Observable<Cake> {
-        return create { observer in
+        return Observable.create { observer in
             
             self.oldBakeryService.makeRequest(cakeIdentification)
                 .subscribe(onNext: observer.onNext, onError: observer.onError)

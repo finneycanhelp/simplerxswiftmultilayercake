@@ -10,7 +10,7 @@ class OldBakeryService {
     let disposeBag: DisposeBag = DisposeBag()
     
     func makeRequest(cakeIdentification: String) -> Observable<Cake> {
-        return create { observer in
+        return Observable.create { observer in
             
             // someURLWhichGoesHere because it's just an example.
             self.networkRequestable.doPost("https://someURLWhichGoesHere", body: self.createRequestBody(cakeIdentification))

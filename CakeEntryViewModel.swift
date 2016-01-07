@@ -10,7 +10,7 @@ struct CakeEntryViewModel {
     
     func grabCake() -> Observable<Cake> {
         
-        return create { observer in
+        return Observable.create { observer in
             self.cakeAPI.fetchCake(self.cakeIdentification.value)
                 .subscribe(onNext: observer.onNext, onError: observer.onError)
             .addDisposableTo(self.disposeBag)
